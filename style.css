@@ -1,0 +1,121 @@
+
+.aboutbeagle{
+    width: 100%;
+height: 600.544px;
+border: 2px solid #000;
+}
+.aboutbeagle>h1{
+    color: #000;
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+}
+.aboutbeagle>p{
+    color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: justify;
+}
+.aboutbeagle>a{
+    color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+.aboutbeagle>a:hover{
+    color: darkcyan;
+}
+.image>h1{
+    color: #000;
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+}
+.image>img{
+    width: 700px;
+height: 400px;
+flex-shrink: 0;
+border: 4px solid darkcyan;
+border-radius: 14px;
+}
+.image>a{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.image>a:hover{
+    color: darkcyan;
+}
+.trivia>h1{
+    color: #000;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.trivia>ul>li{
+    color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+@media only screen and (max-width:912px){
+    section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+.aboutbeagle{
+    width: 100vw;
+    border-style: none;
+    align-items: center;
+    height: 100%;
+}
+.aboutbeagle>h1{
+    text-align: center;
+}
+.aboutbeagle>p{
+    text-align: center;
+}
+.image{
+    
+    width: 100vw;
+    border-style: none;
+    align-items: center;
+}
+.image>h1{
+    text-align: center;
+}
+.image>img{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    height: 300px;
+}
+.trivia{
+    text-align: center;
+}
+.trivia>ul>li{
+    text-align: center;
+}
+}   
